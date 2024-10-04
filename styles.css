@@ -1,11 +1,10 @@
 header {
-    padding: 25px;
+    padding: 10px;
     border-bottom: 5px solid #ccc;
     text-align: center;
     position: fixed;
     width: 100%;
     top: 0;
-    background-color: rgb(181, 27, 232);
     background-color: white;
     z-index: 200;
     color: black;
@@ -85,15 +84,14 @@ form h3 {
   }
   
   input[class="full"], select, textarea {
-    width: 50%;
+    width: 100%;
     margin: 10px 0 0 0;
     min-height: 2.5em;
   }
   
   input, textarea {
     background-color: #ffffff;
-    color: #0a0a23 ;
-    border: none;
+    color: black;
     border-radius: 4px;
   }
   
