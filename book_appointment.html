@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Premier Ophthalmic Clinic</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles.css"/>
+    </head>
+    <body>
+        <header id="top">
+            <h1>Premier Ophthalmic Clinic</h1>
+            <ul id="menu">
+                <li class="menu-list"><a class="menu-link" href="index.html">Home</a></li>
+                <li class="menu-list"><a class="menu-link" href="who_we_are.html">Who We Are</a></li>
+                <li class="menu-list"><a class="menu-link" href="eye_health_tips.html">Eye health Tips</a></li>
+                <li class="menu-list"><a class="menu-link" href="services.html">Services</a></li>
+                <li class="menu-list"><a class="menu-link" href="book_appointment.html">Book an Appointment</a></li>
+                <li class="menu-list"><a class="menu-link" href="contacts.html">Contacts</a></li>
+                <li class="menu-list"><input class="menu-link" type="search" id="search" name="search" placeholder="Search"></li>
+            </ul>
+        </header>
+        <main>
+            <section id="Appointment">
+                <form action="">
+                    <h3>Appointment Form</h3>
+                    <fieldset>
+                        <label for="full-name">Name</label>
+                        <input name="full-name" type="text" placeholder="Your name here..." required/>
+
+                        <label for="age">Age</label>
+                        <input name="age" type="number" placeholder="Your age..." min="13" max="100" required/>
+
+                        <label for="email">E-mail</label>
+                        <input name="email" type="email" placeholder="Your email..." required/>
+
+                        <label for="phone_number">Phone Number</label>
+                        <input name="phone-number" type="text" placeholder="Your phone number..." required/>
+
+
+                    </fieldset>
+                    <fieldset>
+                        <p>What is your preferred appointment date and time:</p>
+                        <input name="appointment-date" type="datetime-local" required/>
+                       
+                    </fieldset>
+                    <fieldset>
+                        <p>Reason(s) for visit:</p>
+                        <label for="eye-exam"><input id="eye-exam" name="eye-exam" type="checkbox" value="1" checked/>Routine Eye Exam</label>
+                        <label for="new-glasses"><input id="new-glasses" name="new-glasses" type="checkbox" value="2"/>New Glasses/Contact Prescription</label>
+                        <label for="surgery"><input id="surgery" name="surgery" type="checkbox" value="3"/>Surgery consultation</label>
+                        <label for="eye-condition"><input id="eye-condition" name="eye-condition" type="checkbox" value="4"/>Eye condition (e.g. Dry eyes, Glaucoma)</label>
+                        <label for="other">Other<textarea id="other" name="other" value="5" rows="3" cols="30"></textarea></label>
+                    </fieldset>
+                    <fieldset>
+                        <p>Current symptoms:</p>
+                        <select >
+                            <option value="">- symptoms -</option>
+                            <option value="1">Pains</option>
+                            <option value="2">Blurry vision</option>
+                            <option value="3">Redness</option>
+                            <option value="4">Itching</option>
+                            <option value="5">Tearing</option>
+                        </select>
+                    </fieldset>       
+                    <fieldset>
+                        <p>Additional notes:</p>
+                        <label for="message"><textarea id="reason" name="reason" placeholder="Write your message here..." rows="3" cols="30" required></textarea></label>
+                    </fieldset>
+                    <fieldset>
+                        <p>How did you hear about us?</p>
+                        <select >
+                            <option value=""></option>
+                            <option value="1">Friend/Family</option>
+                            <option value="2">Online Search</option>
+                            <option value="3">Social media</option>
+                            <option value="4">Referral</option>
+                            <option value="5">Other</option>
+                        </select>
+
+                    </fieldset>
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+            
+        </main>
+    </body>
+
+</html>
