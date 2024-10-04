@@ -1,0 +1,45 @@
+header {
+    padding: 25px;
+    border-bottom: 5px solid #ccc;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: rgb(181, 27, 232);
+    background-color: white;
+    z-index: 200;
+    color: black;
+
+}
+
+#menu {
+    text-align: center;
+}
+
+.menu-list {
+    display: inline-block;
+    margin-right: 15px;
+    padding: 10px;
+}
+
+.menu-link {
+    text-decoration: none;
+    font-size: 14px;
+    color: inherit;
+    text-transform: uppercase;
+    transition: background-color 0.5s ease-in-out;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.menu-link:hover {
+    /* color: #007BFF;
+    border-bottom: 2px solid #007BFF; */
+    color: white;
+    background-color: black;
+}
+
+main {
+    margin: 220px auto;
+    width: 70%;
+}
