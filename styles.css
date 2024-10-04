@@ -41,5 +41,70 @@ header {
 
 main {
     margin: 220px auto;
-    width: 70%;
+    width: 100%;
 }
+
+footer {
+    padding: 25px;
+    border-top: 5px solid #ccc;
+    text-align: center;
+
+}
+
+section img {
+    width: 200px;
+    height: 200px;
+}
+
+/*section ul {
+    margin-left: 0;
+    border: 2px solid red;
+}
+.health-eyes {
+    display: inline-block;
+    border: 2px solid green;
+}
+*/
+form {
+    width: 1000vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 20px 20px 20px 20px;
+  }
+
+form h3 {
+    text-align: center;
+}
+
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+    margin-bottom: 10px;
+  }
+  
+  input[class="full"], select, textarea {
+    width: 50%;
+    margin: 10px 0 0 0;
+    min-height: 2.5em;
+  }
+  
+  input, textarea {
+    background-color: #ffffff;
+    color: #0a0a23 ;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"] {
+    width:100%;
+    height: 50px;
+    background-color:teal;
+    color: white;
+    font-size: 20
+  }
+  
+  textarea {
+    height: 50px;
+  }
