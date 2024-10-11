@@ -1,47 +1,3 @@
-/* header {
-    padding: 10px;
-    border-bottom: 5px solid #ccc;
-    text-align: center;
-    position: fixed;
-    width: 100%;
-    height: 20vh;
-    display: block;
-    top: 0;
-    background-color: #2a9d8f;
-    color: white;
-    z-index: 200;
-} */
-/* 
-#menu {
-    text-align: center;
-}
-
-.menu-list {
-    display: inline-block;
-    margin-right: 15px;
-    padding: 10px;
-}
-
-.menu-link {
-    text-decoration: none;
-    font-size: 14px;
-    color: inherit;
-    text-transform: uppercase;
-    transition: background-color 0.5s ease-in-out;
-    font-weight: 600;
-    padding: 10px;
-} */
-
-/* .menu-link:hover {
-    /* color: #007BFF;
-    border-bottom: 2px solid #007BFF; */
-   /* color: white;
-    background-color: rgb(11, 78, 60);
-} */
-/* 
-body {
-    width: 100%;
-} */
 nav {
     position: fixed;
     width: 100%;
@@ -193,6 +149,7 @@ nav .navigation ul li a:hover {
 
 #Contacts {
     margin-top: 120px;
+    margin-bottom: 300px;
 }
 
 footer {
@@ -201,22 +158,19 @@ footer {
     text-align: center;
     height: 10vh;
 }
-/*section ul {
-    margin-left: 0;
-    border: 2px solid red;
-}
+
 .health-eyes {
     display: inline-block;
     border: 2px solid green;
 }
-*/
+
 form {
     width: 100%;
     max-width: 600px;
     min-width: 300px;
     margin: 0 auto;
-    padding: 20px 20px 20px 20px;
-    background-color: rgba(22, 6, 41, 0.9);
+    padding: 20px;
+    background-color: rgba(56, 30, 88, 0.9);
     color: white;
 }
 
@@ -235,7 +189,10 @@ label {
     margin: 0.5rem 0;
     margin-bottom: 0px;
 }
-  
+
+input {
+    border: none;
+}
 input[class="full"], select, textarea {
     width: 100%;
     margin: 2px 20x 0 0;
@@ -255,10 +212,12 @@ input[type="submit"] {
     color: white;
     font-size: 20px;
 }
-  
+
+input[type="submit"]:hover {
+    transition: all 0.5s ease-in-out;
+    color:#ffffff;
+    background-color: aqua;
+}  
 textarea {
     height: 50px;
 }
-
-
-
