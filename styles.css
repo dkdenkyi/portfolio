@@ -146,6 +146,27 @@ nav .navigation ul li a:hover {
     
 } 
 
+#Home .blue {
+    color: white;
+    background-color: rgb(16, 16, 117);
+}
+
+#Home .blue:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+#Home .yellow {
+    color: white;
+    background-color: rgb(116, 109, 10);
+}
+
+#Home .yellow:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
 #Eye-health {
     /* background-image: linear-gradient(rgba(9, 5, 54, 0.2), rgba(5,4,46,0.3)),url(assets/healthy_eyes.jpg); */
     width: 100%;
